@@ -20,19 +20,19 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--Very-Light-Grayish-Blue);
-  width: 70%;
-  height: 80%;
+  width: 1440px;
+  height: 100%;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 2.5%;
   background-image: url(./images/bg-top.svg), url(./images/bg-bottom.svg);
-  background-size: 20% 60%, 20% 40%;
+  background-size: 30% 60%, 25% 40%;
   background-position: top right, left bottom;
   background-repeat: no-repeat;
 }
 
 .main-txt {
   display: flex;
-  margin-top: 70px;
+  margin-top: 90px;
   margin-bottom: 60px;
   flex-direction: column;
   align-items: center;
@@ -65,10 +65,10 @@ body {
 .learn-btn {
   align-self: center;
   border: none;
-  width: 200px;
+  width: 270px;
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--Grayish-Blue);
+  background-color: rgb(134, 61, 228);
 }
 
 .learn-font {
@@ -82,7 +82,7 @@ body {
   flex-direction: row;
   margin: auto;
   margin-bottom: 100px;
-  color: var(--Grayish-Blue);
+  color: var(--Dark-Grayish-Blue);
 }
 
 .basic {
@@ -101,44 +101,30 @@ body {
   background-color: white;
 }
 
-.basic:hover {
-  opacity: 0.8;
-  color: var(--Very-Light-Grayish-Blue);
-  background-color: var(--Grayish-Blue);
-  .learn-btn {
-    background-color: var(--Very-Light-Grayish-Blue);
-    color: var(--Grayish-Blue);
-  }
-  .prices {
-    color: white;
-  }
-}
-
 .prof {
   display: flex;
   border: none;
   flex-direction: column;
   align-items: center;
-  height: 400px;
-  width: 300px;
+  height: 420px;
+  width: 290px;
   padding: 30px;
   justify-content: space-between;
   border-radius: 5px;
   border-width: 1px;
-  background-color: white;
+  color: var(--Very-Light-Grayish-Blue);
+  background-color: rgb(134, 61, 228);
 }
 
-.prof:hover {
-  opacity: 0.8;
-  color: var(--Very-Light-Grayish-Blue);
-  background-color: var(--Grayish-Blue);
-  .learn-btn {
-    background-color: var(--Very-Light-Grayish-Blue);
-    color: var(--Grayish-Blue);
-  }
-  .prices {
-    color: white;
-  }
+.prof-price {
+  color: white;
+  font-size: 40px;
+}
+
+.prof-learn {
+  background-color: white;
+  color: rgb(134, 61, 228);
+  width: 260px;
 }
 
 .master {
@@ -155,17 +141,4 @@ body {
   border-width: 1px;
   justify-content: space-between;
   background-color: white;
-}
-
-.master:hover {
-  opacity: 0.8;
-  color: var(--Very-Light-Grayish-Blue);
-  background-color: var(--Grayish-Blue);
-  .learn-btn {
-    background-color: var(--Very-Light-Grayish-Blue);
-    color: var(--Grayish-Blue);
-  }
-  .prices {
-    color: white;
-  }
 }
